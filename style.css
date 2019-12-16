@@ -11,7 +11,7 @@ nav {
     left:0;
     width:100%;
     height:100%;
-    padding: 10px 80px;
+    padding: 0 80px;
     box-sizing: border-box;
     transition: .3s;
 }
@@ -19,17 +19,20 @@ nav {
 nav.black{
     background: rgba(0,0,0,0.8);
     height: auto;
-    padding: 10px 80px;
+    padding: 0 80px;
 }
 
 nav .logo{
-    padding: 10px 20px;
-    height: 80px;
+    padding: 25px 20px;
+    height: 15px;
     float: left;
-    font-size:40px;
+    font-size:20px;
     transition: .3s;
 }
-
+nav .logo a{
+    color: #ffffff;
+    text-decoration: none;
+}
 nav.black .logo{
     color: #ffffff;
 }
@@ -47,8 +50,10 @@ nav ul li{
 }
 
 nav ul li a{
+
+    font-size: 16px;
     line-height: 80px;
-    color: black;
+    color: #ffffff;
     padding: 12px 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -64,19 +69,30 @@ nav ul li a:focus{
 }
 
 .sec1{
+    color: #ffffff;
+    font-size: 20px;
     width: 100%;
-    height: 125vh;
-    background: url(pic/BG.jpg);
+    height: 100vh;
+    background: url(pic/bike.jpg);
     background-size: cover;
-    background-position: center bottom;
-}
-.sec1 p{
-    color: black;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 40px;
-    padding-top: 20%;
-    
+    padding:0 20px;
 }
+.sec1 .button{
+    font-size: 40px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    border: 3px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
 .content{
     margin-top: 80px;
 }
