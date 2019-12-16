@@ -1,37 +1,47 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="main.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="keywords" content="samson, samson chan, personal website">
+        <meta name="author" content="Samson Chan">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <title></title>
+        <script type="text/javascript">
+            $(window).on('scroll', function(){
+                if($(window).scrollTop()) {
+                    $('nav').addClass('black');
+                }
+                else {
+                    $('nav').removeClass('black');
+                }
+            })
+        </script>
+        <title>Samson Chan Website</title>
     </head>
 
     <body>
-        <div class="header">
-            <div class="inner_header">
-                <div class="logo_container">
-                    <h1>Samson Chan</h1>
-                    <!-- <h1>About Me</h1>
-                    <h2>ontact</h2> -->
+        <div class="wrapper">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Samson Chan</a>
                 </div>
-                <ul class="navigation">
-                    <a><li>About Me</li></a>
-                    <a><li>Hobbies</li></a>
-                    <a><li>Contact</li></a>
+                <ul>
+                    <li><a href="#">Life</a></li>
+                    <li><a href="#">Hobbies</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-                    
-            </div>
+            </nav>
+            <section class="sec1">
+                <h1>S A M S O N C H A N</h1>
+                <p>This is My Personal Website.</p>
+                <a href="#" class="button">Read more</a>
+            </section>
+            <section class="content">
+                <p>One of the proudest projects I worked on was happened during this summer internship. It is a web photo editor for AI PoseRecognition model and I got to modify it to have more functionality as well as adjustments of the data outputs. It is not really a big project, but it stands as an important bridge for the data collection. I learned so much from playing and modifying with it, such as programming in python and java, and understanding of Coco dataset with data analysis skills. I also used Android Studio to modify an app for gesture detection testing. The purpose of the project is to allow users to upload and edit images, then the input function would convert information to a dataset for the AI model tuning and the final project, which is a fitness mirror that detect to do gestures. At the end of the project, I got a chance to teach a cooperation team to use the project to collect data. I was very glad that people were using my tools and I got to introduce my tool to them as I also learned what user experience is and I could do adjustments from feedback. This is one of the projects that I am very proud of.
+                </p>
+            </section>
         </div>
-
-        <div class="home">
-            <div class="inner_home">
-                <div class="info_container">
-
-                </div>
-            </div>
-        </div>
-
     </body>
 </html>
