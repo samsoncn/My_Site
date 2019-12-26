@@ -19,7 +19,7 @@ nav {
 nav.black{
     background: rgba(0,0,0,0.8);
     height: auto;
-    padding: 0 80px;
+    padding: 0 50px;
 }
 
 nav .logo{
@@ -56,7 +56,6 @@ nav ul li a{
     color: #ffffff;
     padding: 12px 30px;
     text-decoration: none;
-    text-transform: uppercase;
     transition: .3s;
 }
 
@@ -95,6 +94,12 @@ nav ul li a:focus{
 
 .content{
     margin-top: 80px;
+    margin-bottom: 80px;
+}
+.content h1{
+    width: 80%;
+    margin:30px auto;
+    font-size:40px;
 }
 .content p{
     width: 80%;
@@ -102,4 +107,11 @@ nav ul li a:focus{
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
+}
+.footer{
+    padding:20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
 }
