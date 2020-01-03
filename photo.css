@@ -86,13 +86,14 @@ main{
     display:block;
     float:left;
     width: 25%;
-    height: 25%;
+    height: auto;
     padding: 10px;
     padding-left: 12px;
 }
 
 img{
     width:100%;
+    /* height: auto; */
     border-radius: 5px;
     
 }
