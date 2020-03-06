@@ -109,9 +109,26 @@ nav ul li a:focus{
     line-height: 30px;
 }
 .footer{
+    color: #ffffff;
     padding:20px;
     margin-top: 20px;
-    color: #ffffff;
-    background-color: black;
+    /* color: #ffffff;*/
+    background-color: black; 
     text-align: center;
+    
 }
+.sm a{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    color: white;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 26px;
+}
+.footer .sm a:hover{
+    background: #22b8e6;
+}
+
