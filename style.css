@@ -82,14 +82,17 @@ nav ul li a:focus{
     text-align: center;
     padding:0 20px;
 }
-.sec1 .button{
+button{
     font-size: 40px;
-    color: #ffffff;
+    color: black;
     font-size: 15px;
     text-decoration: none;
     border: 3px solid;
     padding: 10px 20px;
     border-radius: 10px;
+}
+button:hover {
+    background:transparent;
 }
 
 .content{
@@ -117,7 +120,8 @@ nav ul li a:focus{
     text-align: center;
     
 }
-.sm a{
+.sm ul li{
+    display: inline;
     display: inline-flex;
     width: 60px;
     height: 60px;
@@ -128,7 +132,10 @@ nav ul li a:focus{
     transition: 0.4s;
     font-size: 26px;
 }
-.footer .sm a:hover{
-    background: #22b8e6;
+.sm ul li a{
+    color: #ffffff;
 }
+/* .footer .sm li:hover{
+    background: #22b8e6;
+} */
 
