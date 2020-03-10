@@ -79,8 +79,9 @@ nav ul li a:focus{
     outline: none;
 }
 
-main{
+.box{
     margin: 0 120px 0 120px;
+    padding-bottom: 345%;
 }
 .block{
     display:block;
@@ -94,33 +95,34 @@ main{
 img{
     width:100%;
     /* height: auto; */
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 img:hover{
-    transform: scale(2,2);
-    transition: 2s transform;
+    transform: scale(1.2,1.2);
+    transition: 1.5s transform;
 }
 
-/* .gallery{
-    margin-left:120px
-    /* margin:50px 100px;
-} */
-/* .gallery img{
-    width: 20%;
-    padding: 10px;
-    transition: 0.2s;
-    border-radius: 5px;
-}
-
-.gallery img:hover{
-    transform: scale(2,2);
-
-} */
-/* .footer{
+.footer{
+    color: #ffffff;
     padding:20px;
     margin-top: 20px;
-    color: #ffffff;
-    background-color: black;
+    background-color: black; 
     text-align: center;
-} */
+    
+}
+.sm ul li{
+    display: inline;
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    color: white;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 26px;
+}
+.sm ul li a{
+    color: #ffffff;
+}
