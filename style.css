@@ -82,20 +82,9 @@ nav ul li a:focus{
     text-align: center;
     padding:0 20px;
 }
-button{
-    font-size: 40px;
-    color: black;
-    font-size: 15px;
-    text-decoration: none;
-    border: 3px solid;
-    padding: 10px 20px;
-    border-radius: 10px;
-}
-button:hover {
-    background:transparent;
-}
 
-.content{
+
+/* .content{
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -110,11 +99,10 @@ button:hover {
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
-}
+} */
 .footer{
     color: #ffffff;
     padding:20px;
-    margin-top: 20px;
     background-color: black; 
     text-align: center;
     
