@@ -52,7 +52,7 @@ nav ul li{
 nav ul li a{
     font-size: 16px;
     line-height: 80px;
-    color: #ffffff;
+    color: black;
     padding: 12px 30px;
     transition: .5s;
 }
@@ -85,7 +85,6 @@ nav ul li a:focus{
 
 .box .content{
     padding-left: 100px;
-
 }
 
 .footer{
@@ -93,8 +92,15 @@ nav ul li a:focus{
     padding:20px;
     margin-top: 20px;
     background-color: black; 
-    text-align: center;
-    
+    text-align: center; 
+}
+
+.footer h4{
+    padding-left: 40px;
+}
+
+.footer p{
+    padding-left: 40px;
 }
 
 .sm ul li{
