@@ -107,25 +107,21 @@ img:hover{
 
 .footer{
     color: #ffffff;
-    padding:20px;
-    margin-top: 20px;
+    padding:5px;
     background-color: black; 
     text-align: center;
-    
-}
-.footer h4{
-    padding-left: 40px;
 }
 .footer p{
-    padding-left: 40px;
+    margin-left: 20px;
 }
+
 .sm ul li{
     display: inline;
     display: inline-flex;
-    width: 50px;
-    height: 30px;
+    width: 40px;
+    height: 20px;
     color: white;
-    margin: 0 5px;
+    margin: 0 5px 0 0;
     justify-content: center;
     align-items: center;
     transition: 0.4s;
@@ -134,3 +130,42 @@ img:hover{
 .sm ul li a{
     color: #ffffff;
 }
+@media (max-width: 500px) {
+    
+    nav {
+        color: #ffffff;
+        position: fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        padding: 0 40px;
+        box-sizing: border-box;
+        transition: .3s;
+    }
+    
+    nav.black{
+        background: rgba(0,0,0,0.8);
+        height: auto;
+        padding: 0 20px;
+    }
+    
+    nav .logo{
+        padding: 25px 20px;
+        height: 15px;
+        float: left;
+        font-size:20px;
+        transition: .3s;
+    }
+    .box{
+        padding-top: 100px;
+        margin: 0 10px 0 10px;
+    }
+    .block{
+        display:block;
+        width: 50%;
+        height: auto;
+        /* padding: 10px;
+        padding-left: 12px; */
+    }
+    }
