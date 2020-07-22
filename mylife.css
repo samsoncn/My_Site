@@ -13,7 +13,7 @@ nav {
     width:100%;
     padding: 0 80px;
     box-sizing: border-box;
-    transition: .8s;
+    transition: .5s;
 }
 
 nav.black{
@@ -116,31 +116,23 @@ nav ul li a:focus{
 }
 
 @media (max-width: 500px) {
-    
+
     nav {
-        color: #ffffff;
-        position: fixed;
-        top:0;
-        left:0;
-        width:100%;
-        height:100%;
-        padding: 0 40px;
-        box-sizing: border-box;
-        transition: .3s;
+        padding: 0 20px;
     }
     
     nav.black{
         background: rgba(0,0,0,0.8);
-        height: auto;
         padding: 0 20px;
     }
     
     nav .logo{
-        padding: 25px 20px;
-        height: 15px;
-        float: left;
-        font-size:20px;
-        transition: .3s;
+        padding: 20px 20px;
+    }
+    .sm ul li{
+        margin: 10px 15px 0 0;
+        width: 30px;
+        height: 10px;
     }
     .box{
         padding: 80px; 
