@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat&sidebar.open=true');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body{
     margin:0;
@@ -92,6 +92,7 @@ nav ul li a:focus{
 .txt-type::after {
     content: "";
     position: absolute;
+    /* left: 5px; */
     /* right: -5px; */
     width: 1px;
     height: 5%;
@@ -116,23 +117,6 @@ nav ul li a:focus{
     100% {background-color: #ccc;}
 }
 
-
-/* .content{
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-.content h1{
-    width: 80%;
-    margin:30px auto;
-    font-size:40px;
-}
-.content p{
-    width: 80%;
-    margin: 30px auto;
-    text-align: justify;
-    font-size: 20px;
-    line-height: 30px;
-} */
 .footer{
     color: #ffffff;
     padding:10px;
