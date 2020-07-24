@@ -92,7 +92,7 @@ nav ul li a:focus{
 .txt-type::after {
     content: "";
     position: absolute;
-    right: -5px;
+    /* right: -5px; */
     width: 1px;
     height: 5%;
     border-right: 2px solid white;
