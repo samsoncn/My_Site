@@ -1,0 +1,244 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+.wrapper nav {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.img-info {
+    width: 100%;
+}
+
+.img-info h2 {
+
+    padding: 30px 30px 20px;
+    font-family: arial;
+    font-size: 30px;
+    line-height: 44px;
+}
+.img-info p {
+    padding: 0px 30px 20px;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+.img-me {
+    width: 75%;
+    padding: 50px 0 0 50px;
+}
+
+@media only screen and  (min-width:768px) {
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .img-info {
+        width: 100%;
+    }
+    .img-info h2 {
+        padding: 20px 0 0;
+    }
+    .img-info p {
+        padding: 20px 0 0;
+    }
+    .img-me {
+        width: 50%;
+        padding-top: 30px;
+    }
+}
+@media only screen and  (min-width:1000px) {
+    .wrapper {
+        width: 1000px;
+    }
+    .img-info {
+        width: 50%;
+        float: right;
+    }
+    .img-info h2 {
+        padding: 20px 0 0;
+    }
+    .img-info p {
+        padding: 20px 0 0 30px;
+    }
+    .img-me {
+        padding-top: 0;
+        width: 25%;
+        float: left;
+    }
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(37, 37, 37);
+    font-family: 'Poppins', sans-serif;
+    transition: .5s;
+
+}
+
+.logo{
+    color: rgb(167, 167, 167);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.logo a{
+    list-style: none;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links a:hover{
+    /* color: rgb(101, 101, 243); */
+    color: rgba(255, 0, 0, 0.692);
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px; 
+    background-color: rgb(167, 167, 167);
+    margin: 5px;
+    transition:  all 0.3s ease;
+}
+.logo {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+.wrapper .box{
+    display: inline-block;
+}
+
+.img-me{
+    width: 30%;
+    padding: 50px;
+}
+
+footer{
+    padding:30px;
+    background-color: rgb(40,40,40);
+    text-align: center;
+    border-top: 2px solid rgb(167, 167, 167);
+}
+footer span{
+    color: rgb(167, 167, 167);
+    font-size: 12px;
+}
+
+.sm li{
+    /* display: inline; */
+    display: inline-flex;
+    width: 40px;
+    height: 20px;
+    margin: 0px 0px 20px 10px;
+    justify-content: center;
+    align-items: center;
+    /* transition: 0.4s; */
+    font-size: 25px;
+}
+.sm a{
+    color: rgb(167, 167, 167);
+}
+
+
+@media screen and (max-width: 1024px){
+    .nav-links{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top:8vh;
+        background-color: rgb(34, 34, 34);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
