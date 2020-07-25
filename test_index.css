@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(34, 34, 34);
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    color: rgb(224, 224, 224);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px; 
+    background-color: rgb(224, 224, 224);
+    margin: 5px;
+    transition:  all 0.3s ease;
+}
+.sec1{
+    color: rgb(224, 224, 224);
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(pic/bike.jpg) no-repeat center center / cover;
+    font-size: 20px;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding:0 20px; */
+    overflow: hidden;
+}
+.sec1 h1{
+    font-size: 50px;
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-bottom:10px;
+}
+.sec1 h3{
+    font-size: 30px;
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-bottom:50px;
+}
+.txt-type::after {
+    content: "";
+    position: absolute;
+    /* left: 5px; */
+    /* right: -5px; */
+    width: 1px;
+    height: 5%;
+    border-right: 2px solid rgb(224, 224, 224);
+
+}
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: rgb(224, 224, 224);
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+.cursor.typing {
+    animation: none;
+}
+@keyframes blink {
+    0% { background-color: rgb(224, 224, 224);}
+    49% {background-color: rgb(224, 224, 224);}
+    50% {background-color: transparent; }
+    99% {background-color: transparent;}
+    100% {background-color: rgb(224, 224, 224);}
+}
+
+footer{
+    padding:30px;
+    background-color: rgb(40,40,40);
+    text-align: center;
+    border-top: 2px solid rgb(224, 224, 224);
+}
+footer span{
+    color: rgb(224, 224, 224);
+    font-size: 12px;
+}
+
+.sm li{
+    /* display: inline; */
+    display: inline-flex;
+    width: 40px;
+    height: 20px;
+    margin: 0px 0px 20px 10px;
+    justify-content: center;
+    align-items: center;
+    /* transition: 0.4s; */
+    font-size: 25px;
+}
+.sm a{
+    color: rgb(224, 224, 224);
+}
+
+@media screen and (max-width: 1024px){
+    .nav-links{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top:8vh;
+        background-color: rgb(34, 34, 34);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
