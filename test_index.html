@@ -7,19 +7,31 @@
         <link rel="stylesheet" href="test_index.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(window).on('scroll', function(){
+                if($(window).scrollTop()) {
+                    $('nav').addClass('black');
+                }
+                else {
+                    $('nav').removeClass('black');
+                }
+            })
+        </script>
         <title>Samson Chan</title>
     </head>
     <body>
         <nav>
             <div class="logo">
                 <h4>Samson Chan</h4>
+                    <!-- <a href="index.html">Samson Chan</a></h4> -->
             </div>
             <ul class="nav-links">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="test_about.html">About</a>
                 </li>
                 <li>
                     <a href="gallery#">Gallery</a>
@@ -34,7 +46,7 @@
         <section class="sec1">
             <h1>SAMSON CHAN</h1>
             <!-- <p>As a <span class="txt-type" data-wait="3000" data-words='["Software Developer", "Product Manager",  "Badminton Coach"]'></span></p> -->
-            <h3><span class="txt-type"></span><span class="cursor"></span></h3>
+            <h3><span class="txt-type"></span><span class="cursor typing">&nbsp;</span></h3>
             <!-- <p>This is it. Welcome to My Website.</p> -->
         </section>
         <footer>

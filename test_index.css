@@ -9,15 +9,21 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(37, 37, 37);
     font-family: 'Poppins', sans-serif;
+    transition: .5s;
+
 }
 
 .logo{
-    color: rgb(224, 224, 224);
+    color: rgb(240, 240, 240);
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+}
+
+.logo a{
+    list-style: none;
 }
 
 .nav-links{
@@ -25,13 +31,17 @@ nav{
     justify-content: space-around;
     width: 30%;
 }
+.nav-links a:hover{
+    /* color: rgb(101, 101, 243); */
+    color: rgba(255, 0, 0, 0.692);
+}
 
 .nav-links li{
     list-style: none;
 }
 
 .nav-links a{
-    color: rgb(224, 224, 224);
+    color: rgb(240, 240, 240);;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -46,13 +56,13 @@ nav{
 .burger div{
     width: 25px;
     height: 3px; 
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(240, 240, 240);
     margin: 5px;
     transition:  all 0.3s ease;
 }
 .sec1{
-    color: rgb(224, 224, 224);
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(pic/bike.jpg) no-repeat center center / cover;
+    color: #ccc;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(pic/bike.jpg) no-repeat center center / cover;
     font-size: 20px;
     width: 100%;
     height: 100vh;
@@ -65,35 +75,36 @@ nav{
     text-align: center;
     /* padding:0 20px; */
     overflow: hidden;
+    padding-bottom: 150px;
 }
 .sec1 h1{
     font-size: 50px;
     /* font-family: Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    padding-bottom:10px;
+    /* padding-bottom:10px; */
 }
 .sec1 h3{
     font-size: 30px;
     /* font-family: Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    padding-bottom:50px;
+    /* padding-bottom:50px; */
 }
-.txt-type::after {
+/* .txt-type::after {
     content: "";
     position: absolute;
-    /* left: 5px; */
-    /* right: -5px; */
     width: 1px;
-    height: 5%;
-    border-right: 2px solid rgb(224, 224, 224);
-
+    height: 6%;
+    border-right: 2px solid rgb(241, 241, 241);
+} */
+.txt-type{
+    /* font-weight: normal; */
 }
 .cursor {
     display: inline-block;
     width: 3px;
-    background-color: rgb(224, 224, 224);
+    background-color: #ccc;
     margin-left: 0.1rem;
     animation: blink 1s infinite;
 }
@@ -101,21 +112,29 @@ nav{
     animation: none;
 }
 @keyframes blink {
-    0% { background-color: rgb(224, 224, 224);}
-    49% {background-color: rgb(224, 224, 224);}
+    0% { background-color: rgb(240, 240, 240);}
+    49% {background-color: rgb(240, 240, 240);}
     50% {background-color: transparent; }
     99% {background-color: transparent;}
-    100% {background-color: rgb(224, 224, 224);}
+    100% {background-color: rgb(240, 240, 240);}
 }
+/* @keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
 
 footer{
     padding:30px;
     background-color: rgb(40,40,40);
     text-align: center;
-    border-top: 2px solid rgb(224, 224, 224);
+    border-top: 2px solid rgb(201, 201, 201);
 }
 footer span{
-    color: rgb(224, 224, 224);
+    color: rgb(201, 201, 201);
     font-size: 12px;
 }
 
@@ -131,7 +150,7 @@ footer span{
     font-size: 25px;
 }
 .sm a{
-    color: rgb(224, 224, 224);
+    color: rgb(201, 201, 201);
 }
 
 @media screen and (max-width: 1024px){
@@ -147,13 +166,14 @@ footer span{
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 100%;
         top:8vh;
-        background-color: rgb(34, 34, 34);
+        background-color: rgba(34, 34, 34, 0.9);
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 40%;
+
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
