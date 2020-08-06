@@ -9,10 +9,9 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(39, 39, 39);
     font-family: 'Poppins', sans-serif;
     transition: .5s;
-
 }
 
 .logo{
@@ -20,6 +19,7 @@ nav{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    padding-right: 35%;
 }
 
 .logo a{
@@ -61,7 +61,7 @@ nav{
     transition:  all 0.3s ease-in;
 }
 .sec1{
-    color: #ccc;
+    color: rgb(240, 240, 240);
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url(pic/bike.jpg) no-repeat center center / cover;
     font-size: 20px;
     width: 100%;
@@ -133,10 +133,10 @@ footer{
     padding:30px;
     background-color: rgb(40,40,40);
     text-align: center;
-    border-top: 2px solid rgb(201, 201, 201);
+    border-top: 2px solid rgb(240, 240, 240);
 }
 footer span{
-    color: rgb(201, 201, 201);
+    color: rgb(240, 240, 240);
     font-size: 12px;
 }
 
@@ -152,7 +152,7 @@ footer span{
     font-size: 25px;
 }
 .sm a{
-    color: rgb(201, 201, 201);
+    color: rgb(240, 240, 240);
 }
 
 @media screen and (max-width: 1024px){
