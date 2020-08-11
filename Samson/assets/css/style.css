@@ -317,8 +317,8 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  /* background: #0078ff; */
-  background: #003b7e;
+  background: #005eca;
+  /* background: #003b7e; */
   color: #fff;
   width: 44px;
   height: 44px;
@@ -1350,8 +1350,8 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
-  /* background-color: #003b7e; */
+  /* background-color: #0078ff; */
+  background-color: #003b7e;
   top: 20px;
 }
 
