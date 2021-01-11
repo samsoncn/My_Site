@@ -4,41 +4,41 @@ import BoxItem from './BoxItem';
 
 function Box() {
   return (
-    <div className='Box'>
+    <div className='box'>
       <h1>Check out my favourite memory!</h1>
       <div className='Box__container'>
-        <div className='Box__wrapper'>
-          <ul className='Box__items'>
+        <div className='box__wrapper'>
+          <ul className='box__items'>
             <BoxItem
-              src='../../public/img/intro.jpg'
+              src='/img/BG.jpg'
             //   text=''
-            //   label=''
+              label='New York'
               path='/gallery'
             />
             <BoxItem
-              src='images/img-2.jpg'
+              src='/img/9.jpg'
             //   text=''
-            //   label=''
+              label='Cottage'
               path='/gallery'
             />
           </ul>
           <ul className='box__items'>
             <BoxItem
-              src='images/img-3.jpg'
+              src='/img/3.jpg'
             //   text=''
-            //   label=''
+              label='Korea'
               path='/gallery'
             />
             <BoxItem
-              src='images/img-4.jpg'
+              src='/img/4.jpg'
             //   text=''
-            //   label='Adventure'
+              label='Niagara Falls'
               path='/gallery'
             />
             <BoxItem
-              src='images/img-8.jpg'
+              src='/img/5.jpg'
             //   text=''
-            //   label=''
+              label='Camping'
               path='/gallery'
             />
           </ul>

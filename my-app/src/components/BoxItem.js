@@ -13,9 +13,9 @@ function BoxItem(props) {
               src={props.src}
             />
           </figure>
-          <div className='box__item__info'>
+          {/* <div className='box__item__info'>
             <h5 className='box__item__text'>{props.text}</h5>
-          </div>
+          </div> */}
         </Link>
       </li>
     </>
