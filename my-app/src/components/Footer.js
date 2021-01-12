@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -16,7 +16,7 @@ function Footer() {
                     <li><a href="https://www.linkedin.com/in/samson-chan-15913b169/"><i class="fab fa-linkedin-in"></i></a></li>          
                 </ul>
             </div>
-            <small class='website-rights'>SAMSON CHAN © 2020</small>
+            <small class='website-rights'>SAMSON CHAN © 2021</small>
         </section>
       </div>
     );
