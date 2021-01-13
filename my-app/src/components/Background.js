@@ -8,23 +8,25 @@ function Background() {
     return (
         <div className='bg-container'>
             <video src="/video/vid"></video>
-            <h1>Samson Chan</h1>
+            <h1>Hi, Welcome to my nature.</h1>
             <h3><span class="txt-type"></span><span class="cursor typing">&nbsp;</span></h3>
-            <p> I'm a{' '}
+            <p> I'm {' '}
 
                 <Typical
                     loop={Infinity}
                     wrapper='b'
                     steps={[
-                        'Software Developer.', 
+                        'Samson. You can call me Sammy.',
+                        3000,
+                        'a Software Developer.', 
                         1000, 
-                        'Web Developer.', 
+                        'a Web Developer.', 
                         1000, 
-                        'Product Manager.',
+                        'a Product Manager.',
                         1000,
-                        'Badminton Coach.',
+                        'a Badminton Coach.',
                         1000,
-                        'Mountain Biker.',
+                        'a Mountain Biker.',
                         1000
                     ]}
                 />
