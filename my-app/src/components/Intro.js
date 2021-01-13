@@ -4,31 +4,23 @@ import './Intro.css';
 function Intro() {
     return (
         <div className='intro_container'>
-            <div className='box'>
+            <div className='intro_box'>
                 <div className='intro_img'>
-                    <img src='./img/belleville-100.jpg'></img>
+                    <img src='./img/intro.jpg'></img>
                 </div>
                 <div className='intro_content'>
                     <h2>About Me</h2>
                     <p>Hello!</p>
                     <p>
-                        My name is Samson Chan and I am a Hong Kong native, currently studying in Canada. I am a student at the York University, Bachelor of Arts specializing in Information Technology.
+                        My name is Samson Chan and and I am currently in my transfer Undergrad for Information Technology at York University. 
+                        I also studied in Statistics and Linguistics (Double Majors) at University of Toronto. 
                     </p>
-                    <p>
-                        Though not currently studying computer science, I have always had an interest in the field. I have taught myself 
-                        a variety of programming languages, specializing in python, Java, node.js, HTML/CSS...etc, and regularly work on side-projects in order to further 
-                        develop my abilities.
-                    </p>
+                    <br/>
                     <p>    
-                        For the past two summers, I have worked at Animoca Brands and OliveX in Hong Kong as a software engineer intern,
-                            allowing myself to apply the skills I have worked so hard to master. The position gave me the opportunity to develop 
-                            my personal communication, problem-solving and researching skills. 
+                        I have had past software development interships at Animoca Brands, OliveX, and iAscend.
+                        When I'm taking time off from school or doing projects, I love watching movies as well as watching YouTube cooking channels.
+                        It helps me to brainstorm creative ideas and catch up with logical thinking.
                     </p>  
-                    <p>
-                        I would like to develop and strengthen my existing skills and connections through a professional and dynamic work 
-                        environment. I am open to any opportunities that allow me to pursue my passion in programming.
-                        
-                    </p>
                 </div>
             </div>
         </div>
