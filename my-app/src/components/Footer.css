@@ -20,7 +20,7 @@
   .website-rights {
     font-size: 12px;
     align-items: center;
-    padding-left: 4rem;
+    padding-left: 2.5rem;
     /* display: inline; */
     color: #fff;
   }
@@ -62,5 +62,5 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
-  }
+  /* @media screen and (max-width: 768px) {
+  } */
