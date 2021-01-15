@@ -1,12 +1,15 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
+import Upload from '../Upload';
 
-export default function Gallery() {
+function Gallery() {
     return (
     <>
-    <h1 className='gallery'>It will come soon...</h1>
-        <Footer />
+        <Upload />
+        {/* <Footer /> */}
     </>
     )
 }
+
+export default Gallery;
