@@ -23,7 +23,7 @@ video {
   
   .bg-container > h1 {
     color: rgb(228, 228, 228);
-    font-size: 40px;
+    font-size: 30px;
     margin-top: -150px;
     /* text-transform: uppercase; */
     font-family: 'Montserrat', sans-serif;
@@ -32,7 +32,8 @@ video {
   .bg-container > p {
     /* color: rgb(201, 201, 201); */
     color: rgb(228, 228, 228);
-    font-size: 25px;
+    font-size: 24px;
+    /* padding-top: -50px; */
     /* font-family: 'Poppins', sans-serif; */
   }
 /*   

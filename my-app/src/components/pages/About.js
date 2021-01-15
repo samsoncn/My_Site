@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Footer } from 'react-bootstrap/lib/Modal';
 import '../../App.css';
 import Intro from '../Intro';
 import Footer from '../Footer';

@@ -8,8 +8,8 @@ function Background() {
     return (
         <div className='bg-container'>
             <video src="/video/vid"></video>
-            <h1>Hello.</h1>
-            {/* <h1>Hi, Welcome to my nature</h1> */}
+            {/* <h1>Hello.</h1> */}
+            <h1>Hi, Welcome to my nature.</h1>
             <h3><span class="txt-type"></span><span class="cursor typing">&nbsp;</span></h3>
             <p> I'm {' '}
 
