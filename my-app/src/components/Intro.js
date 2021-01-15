@@ -10,6 +10,7 @@ function Intro() {
                 </div>
                 <div className='intro_content'>
                     <h2>About Me</h2>
+                    <br/>
                     <p>Hello!</p>
                     <p>
                         My name is Samson Chan and and I am currently in my transfer Undergrad for Information Technology at York University. 
