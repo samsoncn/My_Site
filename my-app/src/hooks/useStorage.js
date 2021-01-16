@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { webStorage } from '../firebase/config';
+import { webStorage, webFirestore } from '../firebase/config';
 
 function useStorage(file) {
 
