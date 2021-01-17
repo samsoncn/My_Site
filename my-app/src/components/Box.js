@@ -41,6 +41,7 @@ function Box() {
               label='Camping'
               path='/gallery'
             />
+            
           </ul>
         </div>
       </div>
