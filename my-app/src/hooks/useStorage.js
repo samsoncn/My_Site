@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { webStorage, webFirestore } from '../firebase/config';
+import { webStorage, webFirestore, timestamp } from '../firebase/config';
 
 function useStorage(file) {
 
@@ -10,6 +10,7 @@ function useStorage(file) {
     useEffect(() => {
         //Storage Reference
         const storageReference = webStorage.ref(file.name);
+        const collectionRef = webFirestore.collection('images');
 
         storageReference.put(file).on('stated_updated', (load) => {
             // btyes have been transferred divided by the total btyes in the files(total file size) * 100
@@ -23,6 +24,8 @@ function useStorage(file) {
         // get the url of the image
         // asynchronous
         const url = await storageReference.getDownloadURL();
+        const createdAt = timestamp();
+        await collectionRef.add({ url, createdAt });
         setUrl(url);
     })
 
