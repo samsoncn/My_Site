@@ -16,7 +16,9 @@ function Footer() {
                     <li><a href="https://www.linkedin.com/in/samson-chan-15913b169/"><i class="fab fa-linkedin-in"></i></a></li>          
                 </ul>
             </div>
-            <small class='website-rights'>SAMSON CHAN © 2021 All Right.</small>
+            {/* <small class='website-rights'>SAMSON CHAN © 2021 All Right.</small> */}
+            <small class='website-rights'>Copyright © 2020-2021 by Samson Chan</small>
+
         </section>
       </div>
     );
