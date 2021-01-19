@@ -3,7 +3,7 @@ import { webStorage, webFirestore, timestamp } from '../firebase/config';
 
 function useStorage(file) {
 
-    const [progress, setProcess] = useState(0);
+    const [progress, setProgress] = useState(0);
     const [error, setError] = useState(null);
     const [url, setUrl] = useState(null);
 
@@ -12,11 +12,11 @@ function useStorage(file) {
         const storageReference = webStorage.ref(file.name);
         const collectionRef = webFirestore.collection('images');
 
-        storageReference.put(file).on('stated_updated', (load) => {
+        storageReference.put(file).on('updated_state', (load) => {
             // btyes have been transferred divided by the total btyes in the files(total file size) * 100
             // formula of percentage 
             let percentage = (load.bytesTransferred / load.totalBytes) * 100
-            setProcess(percentage);
+            setProgress(percentage);
 
     }, (err) => {
         setError(err);

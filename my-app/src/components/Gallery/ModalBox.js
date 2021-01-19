@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import './Gallery.css';
+import '../Gallery.css';
 
 
 function ModalBox ({ setSelectedImg, selectedImg }) {
