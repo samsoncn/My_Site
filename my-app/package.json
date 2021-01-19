@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "http://samsonchan.tech/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
