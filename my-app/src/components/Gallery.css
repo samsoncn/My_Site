@@ -4,15 +4,25 @@
   --error: #ff4a4a;
 }
 
-/* base styles & title */
 body{
-  
   color: var(--secondary);
-  background-color: #dfdfdf;
+  background-color: #d8d6d6;
 }
 .Gallery{
   max-width: 960px;
   margin: 0 auto;
+}
+/* Header */
+.textBox {
+  padding: 50px;
+  text-align: center;
+}
+.textBox h1 {
+  font-size: 40px;
+}
+.textBox span {
+  font-size: 20px; 
+  text-align: center;
 }
 
 /* upload form styles */
@@ -27,19 +37,21 @@ label input{
 }
 label{
   display: block;
-  width: 30px;
-  height: 30px;
-  border: 1px solid var(--primary);
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #4e4e4e;
+  border-radius: 10%;
   margin: 10px auto;
-  line-height: 30px;
-  color: var(--primary);
+  line-height: 44px;
+  color: white;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 36px;
+  background-color: #4e4e4e;
 }
 label:hover{
-  background: var(--primary);
-  color: white;
+  background: white;
+  color: #4e4e4e;
+  border: 3px solid white ;
 }
 .output{
   height: 60px;
@@ -51,14 +63,14 @@ label:hover{
 
 /* progress bar styles */
 .progress-bar{
-  height: 3px;
-  background: var(--primary);
+  height: 5px;
+  background: var(--secondary);
   margin-top: 20px;
 }
 
 /* image box styles */
 .img-box{
-  margin: 20px;
+  margin: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
@@ -69,17 +81,19 @@ label:hover{
   padding: 50% 0;
   position: relative;
   opacity: 0.8;
+  border-radius: 2%;
 }
 .img-wrap img{
   min-width: 100%;
   min-height: 100%;
-  max-width: 150%;
+  max-width: 110%;
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: 2%;
 }
 img {
-  border-radius: 2%;
+  border-radius: 4%;
 }
 
 /* modal styles */

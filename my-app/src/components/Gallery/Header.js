@@ -6,7 +6,7 @@ function Header() {
         <>
         <div className='textBox'>
             <h1>Welcome to the Gallery Universe.</h1>
-            <span>Feel Free to Share Your Favourite Memory.</span>
+            <span>Feel Free to Share Your Favourite Memories.</span>
         </div>
         
         </>

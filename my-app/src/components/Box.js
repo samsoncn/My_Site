@@ -5,7 +5,7 @@ import BoxItem from './BoxItem';
 function Box() {
   return (
     <div className='box'>
-      <h1>Check out my favourite memory!</h1>
+      <h1>Check out my favourite memories!</h1>
       <div className='Box__container'>
         <div className='box__wrapper'>
           <ul className='box__items'>
