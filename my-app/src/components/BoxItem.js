@@ -9,7 +9,7 @@ function BoxItem(props) {
           <figure className='box__item__pic-wrap' data-category={props.label}>
             <img
               className='box__item__img'
-              alt='Memory Image'
+              alt='Memories'
               src={props.src}
             />
           </figure>

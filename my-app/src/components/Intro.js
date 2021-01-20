@@ -6,7 +6,7 @@ function Intro() {
         <div className='intro_container'>
             <div className='intro_box'>
                 <div className='intro_img'>
-                    <img src='./img/intro.jpg'></img>
+                    <img src='./img/intro.jpg' alt='Samson'></img>
                 </div>
                 <div className='intro_content'>
                     <h2>About Me</h2>
