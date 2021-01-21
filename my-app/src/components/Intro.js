@@ -18,7 +18,7 @@ function Intro() {
                     </p>
                     <br/>
                     <p>    
-                        I have had past software development interships at Animoca Brands, OliveX, and iAscend.
+                        I have had past software development internships at Animoca Brands, OliveX, and iAscend.
                         When I'm taking time off from school or doing projects, I love watching movies as well as watching YouTube cooking channels.
                         It helps me to brainstorm creative ideas and catch up with logical thinking.
                     </p>  
