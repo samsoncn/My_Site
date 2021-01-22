@@ -9,7 +9,7 @@ function Background() {
         <div className='bg-container'>
             <video src="/video/vid"></video>
             {/* <h1>Hello.</h1> */}
-            <h1>Hi, Welcome to my nature.</h1>
+            <h1>Hi, Welcome to my Home.</h1>
             <h3><span class="txt-type"></span><span class="cursor typing">&nbsp;</span></h3>
             <p> I'm {' '}
 
@@ -17,18 +17,18 @@ function Background() {
                     loop={Infinity}
                     wrapper='b'
                     steps={[
-                        'Samson. You can call me Sammy.',
-                        3000,
+                        'Samson. You can call me Sammy Chan.',
+                        4000,
                         'a Software Developer.', 
-                        1000, 
+                        2000, 
                         'a Web Developer.', 
-                        1000, 
+                        2000, 
                         'a Product Manager.',
-                        1000,
+                        2000,
                         'a Badminton Coach.',
-                        1000,
+                        2000,
                         'a Mountain Biker.',
-                        1000
+                        2000
                     ]}
                 />
             </p>
