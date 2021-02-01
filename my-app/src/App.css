@@ -6,6 +6,20 @@
   font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 0.6em;
+  background-color: rgb(58, 58, 58);
+
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(109, 109, 109);
+}
+
 .home,
 .about,
 .gallery,
