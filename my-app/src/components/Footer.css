@@ -18,9 +18,9 @@
   }
 
   .website-rights {
-    font-size: 12px;
+    font-size: 10px;
     align-items: center;
-    padding-left: 1.0rem;
+    padding-left: 1.6rem;
     /* display: inline; */
     color: #fff;
   }
@@ -28,7 +28,7 @@
    .social-icons li{
       display: inline;
       padding: 0 1rem 0 1rem;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
   }
     .social-icons a{
     color: rgb(240, 240, 240);

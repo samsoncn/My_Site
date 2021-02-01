@@ -6,7 +6,6 @@ function Footer() {
     return (
       <div className='footer-container'>
         <section class='social-media'>
-            {/* <small class='website-rights'>SAMSON CHAN © 2020</small> */}
             <div class='social-icons'>
                 <ul>
                     <li><a href="https://www.facebook.com/samson.chan.9"><i class="fab fa-facebook-f"></i></a></li>  
