@@ -7,27 +7,27 @@ import Typical from 'react-typical';
 function Background() {
     return (
         <div className='bg-container'>
-            <video src="/video/vid"></video>
+            <video src="./water.mp4"></video>
             {/* <h1>Hello.</h1> */}
-            <h1>Hi, Welcome to my Home.</h1>
-            <h3><span class="txt-type"></span><span class="cursor typing">&nbsp;</span></h3>
-            <p> I'm {' '}
+            <h1>Hello! I'm Samson.</h1>
+            {/* <h3><span class="txt-type">C:\</span><span class="cursor typing">&nbsp;</span></h3> */}
+            <p> The {' '}
 
                 <Typical
                     loop={Infinity}
-                    wrapper='b'
+                    wrapper='n'
                     steps={[
-                        'Samson. You can call me Sammy Chan.',
-                        4000,
-                        'a Software Developer.', 
+                        // 'Samson. You can call me Sammy Chan.',
+                        // 4000,
+                        'Software Developer', 
                         2000, 
-                        'a Web Developer.', 
+                        'Web Developer', 
                         2000, 
-                        'a Product Manager.',
+                        'Product Manager',
                         2000,
-                        'a Badminton Coach.',
+                        'Badminton Coach',
                         2000,
-                        'a Mountain Biker.',
+                        'Mountain Biker',
                         2000
                     ]}
                 />
